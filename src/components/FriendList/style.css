@@ -1,0 +1,24 @@
+.friend-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    height: 180px;
+    width: 450px;
+    flex-wrap: wrap;
+}
+.friend-list .item{
+    height: 180px;
+    width: 130px;
+    margin: 5px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.friend-list p{
+    text-align: center;
+}
+.friend-list .item img{
+    width: 100px;
+}
+.status-online{color:green}
+.status-offline{color:red}
